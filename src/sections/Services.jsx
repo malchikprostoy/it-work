@@ -1,15 +1,6 @@
 import { motion } from "framer-motion";
 
 export default function Services() {
-  const services = [
-    { title: "Web Development", desc: "Modern, responsive and fast websites." },
-    {
-      title: "Mobile Apps",
-      desc: "Cross-platform solutions for iOS & Android.",
-    },
-    { title: "Cloud Integration", desc: "Secure and scalable infrastructure." },
-  ];
-
   return (
     <section id="services" className="py-24 bg-gray-900">
       <div className="max-w-6xl mx-auto px-6 text-center">

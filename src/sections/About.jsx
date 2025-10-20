@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 export default function About() {
   return (
     <section id="about" className="py-24 bg-gray-900">
