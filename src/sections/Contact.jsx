@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 export default function Contact() {
   return (
     <section id="contact" className="py-24 bg-gray-950">
