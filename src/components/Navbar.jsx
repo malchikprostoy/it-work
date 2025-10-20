@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gray-950/80 backdrop-blur-md text-white z-50 shadow-lg">
+    <nav className="fixed top-0 left-0 w-full bg-gradient-to-br from-gray-950 via-gray-900 to-gray-800 backdrop-blur-md text-white z-50 shadow-lg">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         <h1
           className="text-2xl font-bold text-cyan-400 cursor-pointer"
@@ -51,7 +51,7 @@ export default function Navbar() {
         <motion.ul
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="md:hidden bg-gray-900 text-center py-4 space-y-4"
+          className="md:hidden bg-gradient-to-br from-gray-950 via-gray-900 to-gray-800 text-center py-4 space-y-4"
         >
           {["home", "services", "projects", "about", "contact"].map((item) => (
             <li
